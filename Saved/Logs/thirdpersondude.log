@@ -1,4 +1,4 @@
-﻿Log file open, 08/25/18 13:37:18
+﻿Log file open, 08/25/18 14:25:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -7,11 +7,10 @@ LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
-LogInit: Display: Running engine without a game
+LogInit: Display: Running engine for game: thirdpersondude
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: Loading recent project file: ../../../../../Testgame_1/thirdpersondude/thirdpersondude.uproject
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.287114
+LogStats: Stats thread started at 0.282205
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -124,7 +123,7 @@ LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
+LogInit: Command Line:  
 LogInit: Base Directory: D:/Ashwitch/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -151,236 +150,929 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.25-10.37.18:388][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.25-10.37.18:388][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.25-10.37.18:399][  0]LogHAL: Display: Platform has ~ 8 GB [8476856320 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.08.25-10.37.18:399][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.08.25-10.37.18:399][  0]LogInit: Going up to parent DeviceProfile []
-[2018.08.25-10.37.18:400][  0]LogInit: Computer: LAPTOP-DOSN98DI
-[2018.08.25-10.37.18:400][  0]LogInit: User: Berserk
-[2018.08.25-10.37.18:400][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.08.25-10.37.18:400][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2018.08.25-10.37.18:400][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.08.25-10.37.18:400][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.25-10.37.18:400][  0]LogMemory: Process Physical Memory: 99.30 MB used, 99.30 MB peak
-[2018.08.25-10.37.18:400][  0]LogMemory: Process Virtual Memory: 90.85 MB used, 90.85 MB peak
-[2018.08.25-10.37.18:400][  0]LogMemory: Physical Memory: 3054.19 MB used,  5029.97 MB free, 8084.16 MB total
-[2018.08.25-10.37.18:400][  0]LogMemory: Virtual Memory: 4640.08 MB used,  5029.97 MB free, 134217728.00 MB total
-[2018.08.25-10.37.18:432][  0]LogInit: Using OS detected language (en-US).
-[2018.08.25-10.37.18:433][  0]LogInit: Using OS detected locale (en-US).
-[2018.08.25-10.37.18:433][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.08.25-10.37.18:876][  0]LogStreaming: Display: Took  0.443s to InitEngineTextLocalization.
-[2018.08.25-10.37.18:876][  0]LogInit: Setting process to per monitor DPI aware
-[2018.08.25-10.37.18:921][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.25-10.37.18:921][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.25-10.37.19:153][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.25-10.37.19:153][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.25-10.37.19:237][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (Feature Level 11_0)
-[2018.08.25-10.37.19:237][  0]LogD3D11RHI:       6052/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.08.25-10.37.19:249][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.08.25-10.37.19:249][  0]LogD3D11RHI:       128/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.08.25-10.37.19:251][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.25-10.37.19:251][  0]LogD3D11RHI:       0/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.25-10.37.19:251][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.25-10.37.19:277][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.25-10.37.19:278][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2018.08.25-10.37.19:278][  0]LogWindows: EnumDisplayDevices:
-[2018.08.25-10.37.19:278][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.08.25-10.37.19:278][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.25-10.37.19:278][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.25-10.37.19:279][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
-[2018.08.25-10.37.19:279][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
-[2018.08.25-10.37.19:279][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
-[2018.08.25-10.37.19:279][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
-[2018.08.25-10.37.19:279][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.08.25-10.37.19:279][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 with Max-Q Design
-[2018.08.25-10.37.19:279][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2018.08.25-10.37.19:279][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2018.08.25-10.37.19:279][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.08.25-10.37.19:330][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.25-10.37.19:370][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.08.25-10.37.19:372][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../Testgame_1/thirdpersondude/Intermediate/Shaders/WorkingDirectory/4720/).
-[2018.08.25-10.37.19:372][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Berserk/AppData/Local/Temp/UnrealShaderWorkingDir/C796B51C457E5E1B9009B38DB517A054/'.
-[2018.08.25-10.37.19:664][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.08.25-10.37.19:676][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.08.25-10.37.19:689][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.08.25-10.37.19:705][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.08.25-10.37.19:723][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.08.25-10.37.19:736][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.25-10.37.19:749][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.25-10.37.19:761][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.25-10.37.19:767][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:872][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.25-10.37.19:874][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.08.25-10.37.19:940][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.25-10.37.19:940][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.25-10.37.19:983][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.25-10.37.19:983][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.25-10.37.20:000][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.08.25-10.37.20:014][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.08.25-10.37.20:027][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.08.25-10.37.20:039][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.08.25-10.37.20:048][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.08.25-10.37.20:048][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.25-10.37.20:101][  0]LogXGEController: Cleaning working directory: C:/Users/Berserk/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.08.25-10.37.20:101][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.25-10.37.20:102][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.25-10.37.20:102][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.25-10.37.20:881][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.25-10.37.20:942][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Berserk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.25-10.37.20:943][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Berserk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.08.25-10.37.20:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Testgame_1/thirdpersondude/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.25-10.37.20:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.25-10.37.20:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Testgame_1/thirdpersondude/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.25-10.37.20:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.25-10.37.20:956][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.25-10.37.20:968][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Berserk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.25-10.37.20:968][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.25-10.37.20:968][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.25-10.37.20:986][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.25-10.37.20:987][  0]LogSlate: Using FreeType 2.6.0
-[2018.08.25-10.37.20:988][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.25-10.37.21:063][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2018.08.25-10.37.21:380][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.25-10.37.21:500][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.25-10.37.21:503][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.25-10.37.21:503][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.08.25-10.37.21:503][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.25-10.37.21:503][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.25-10.37.21:521][  0]LogNetVersion: thirdpersondude 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3471732440)
-[2018.08.25-10.37.21:993][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.086396 seconds
-[2018.08.25-10.37.21:999][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.08.25-10.37.21:999][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.08.25-10.37.21:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.25-10.37.22:875][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.25-10.37.22:888][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.25-10.37.23:030][  0]SourceControl: Source control is disabled
-[2018.08.25-10.37.23:030][  0]SourceControl: Source control is disabled
-[2018.08.25-10.37.23:032][  0]SourceControl: Source control is disabled
-[2018.08.25-10.37.23:032][  0]SourceControl: Source control is disabled
-[2018.08.25-10.37.23:254][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.25-10.37.23:304][  0]LogOcInput: OculusInput pre-init called
-[2018.08.25-10.37.23:363][  0]LogEngine: Initializing Engine...
-[2018.08.25-10.37.23:363][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.25-10.37.23:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.25-10.37.23:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.25-10.37.23:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.25-10.37.23:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.25-10.37.23:591][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.08.25-10.37.23:600][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.08.25-10.37.23:606][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.25-10.37.23:618][  0]LogInit: FAudioDevice initialized.
-[2018.08.25-10.37.23:618][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.08.25-10.37.23:675][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Berserk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.25-10.37.23:691][  0]LogInit: Texture streaming: Enabled
-[2018.08.25-10.37.23:703][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.08.25-10.37.23:716][  0]LogInit: Transaction tracking system initialized
-[2018.08.25-10.37.23:730][  0]BlueprintLog: New page: Editor Load
-[2018.08.25-10.37.23:779][  0]LocalizationService: Localization service is disabled
-[2018.08.25-10.37.24:099][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.08.25-10.37.24:099][  0]LogCook: Display: Mobile HDR setting 1
-[2018.08.25-10.37.24:099][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.25-10.37.24:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.25-10.37.24:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.25-10.37.24:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.25-10.37.24:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.25-10.37.24:197][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Content/' took 0.01s
-[2018.08.25-10.37.24:197][  0]SourceControl: Source control is disabled
-[2018.08.25-10.37.24:197][  0]Cmd: MAP LOAD FILE="../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.25-10.37.24:198][  0]LightingResults: New page: Lighting Build
-[2018.08.25-10.37.24:199][  0]MapCheck: New page: Map Check
-[2018.08.25-10.37.24:199][  0]LightingResults: New page: Lighting Build
-[2018.08.25-10.37.24:600][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.08.25-10.37.24:612][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.08.25-10.37.24:638][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.25-10.37.24:694][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.929ms to complete.
-[2018.08.25-10.37.24:694][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.497
-[2018.08.25-10.37.24:796][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.25-10.37.24:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.25-10.37.24:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.25-10.37.24:824][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.25-10.37.24:830][  0]LogCollectionManager: Loaded 0 collections in 0.000869 seconds
-[2018.08.25-10.37.24:870][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Saved/Collections/' took 0.01s
-[2018.08.25-10.37.24:870][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Content/Developers/Berserk/Collections/' took 0.01s
-[2018.08.25-10.37.24:870][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Content/Collections/' took 0.01s
-[2018.08.25-10.37.24:870][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.08.25-10.37.24:882][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2572 classes and 603 folders.
-[2018.08.25-10.37.24:888][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.08.25-10.37.24:931][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.08.25-10.37.24:935][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.08.25-10.37.24:950][  0]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.08.25-10.37.24:953][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.08.25-10.37.24:964][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.08.25-10.37.25:069][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2018.08.25-10.37.25:257][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.25-10.37.25:257][  0]LogLoad: (Engine Initialization) Total time: 8.32 seconds
-[2018.08.25-10.37.25:257][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.08.25-10.37.25:293][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.08.25-10.37.25:304][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.25-10.37.25:324][  1]LogAssetRegistry: Asset discovery search completed in 4.2842 seconds
-[2018.08.25-10.37.25:326][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.08.25-10.37.25:326][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
-[2018.08.25-10.37.29:643][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.08.25-10.37.29:703][ 45]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.08.25-10.37.31:006][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.25-10.37.45:977][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.25-10.38.06:985][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.25-10.38.50:469][ 97]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.25-10.38.50:550][ 97]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:/Users/Berserk/Downloads/National Anthem of USSR.mp3)
-[2018.08.25-10.39.00:262][920]LogSlate: Window 'Delete Assets' being destroyed
-[2018.08.25-10.39.03:356][ 24]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Berserk/Downloads/National Anthem of USSR.wav)
-[2018.08.25-10.39.10:051][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.25-10.39.17:803][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.25-10.39.26:117][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.25-10.39.26:212][335]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.25-10.39.26:320][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.08.25-10.39.26:321][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.25-10.39.26:347][335]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 4:39:26 PM)
-[2018.08.25-10.39.26:347][335]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.08.25-10.39.26:411][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064252s)
-[2018.08.25-10.39.26:412][335]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.08.25-10.39.26:413][335]LogPlayLevel: PIE: World Init took: (0.001454s)
-[2018.08.25-10.39.26:413][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.066694s)
-[2018.08.25-10.39.26:456][335]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.08.25-10.39.26:464][335]LogInit: FAudioDevice initialized.
-[2018.08.25-10.39.26:516][335]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.08.25-10.39.26:520][335]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.08.25-13.39.26
-[2018.08.25-10.39.26:520][335]LogWorld: Bringing up level for play took: 0.001948
-[2018.08.25-10.39.26:536][335]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2018.08.25-10.39.26:537][335]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.493
-[2018.08.25-10.39.26:538][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.08.25-10.39.26:542][335]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave National_Anthem_of_USSR...
-[2018.08.25-10.39.26:555][335]LogTemp: Couldn't find amount to resample to.
-[2018.08.25-10.39.30:365][335]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 39686144 while cooking SoundWave /Game/Memefolder/National_Anthem_of_USSR.National_Anthem_of_USSR.
-[2018.08.25-10.39.32:694][589]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.08.25-10.39.32:785][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.25-10.39.32:831][589]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.25-10.39.32:831][589]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.08.25-10.39.32:883][589]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.25-10.39.32:921][590]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.08.25-10.39.33:760][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.25-10.39.42:132][505]LogSlate: Window 'Source Control Login' being destroyed
-[2018.08.25-10.39.46:301][938]SourceControl: fatal: D:/Ashwitch/UE_4.20/Engine/Content: 'D:/Ashwitch/UE_4.20/Engine/Content' is outside repository
-[2018.08.25-10.39.51:391][938]LogSlate: Window 'Submit Files' being destroyed
-[2018.08.25-10.39.52:074][938]LogSourceControl: commit successful: [master ed407f2] test
-[2018.08.25-10.39.52:119][938]SourceControl: [master ed407f2] test
-[2018.08.25-10.39.52:119][938]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
-[2018.08.25-10.39.52:119][938]SourceControl:  rewrite Content/StarterContent/Architecture/Floor_400x400.uasset (90%)
-[2018.08.25-10.39.52:125][938]SourceControl: Commited [master ed407f2] test.
+[2018.08.25-11.25.44:510][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.25-11.25.44:510][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.25-11.25.44:522][  0]LogHAL: Display: Platform has ~ 8 GB [8476856320 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.25-11.25.44:522][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.25-11.25.44:522][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.25-11.25.44:522][  0]LogInit: Computer: LAPTOP-DOSN98DI
+[2018.08.25-11.25.44:522][  0]LogInit: User: Berserk
+[2018.08.25-11.25.44:522][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.25-11.25.44:522][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.08.25-11.25.44:522][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.08.25-11.25.44:522][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.25-11.25.44:522][  0]LogMemory: Process Physical Memory: 99.30 MB used, 99.30 MB peak
+[2018.08.25-11.25.44:522][  0]LogMemory: Process Virtual Memory: 90.90 MB used, 90.90 MB peak
+[2018.08.25-11.25.44:522][  0]LogMemory: Physical Memory: 3409.62 MB used,  4674.54 MB free, 8084.16 MB total
+[2018.08.25-11.25.44:522][  0]LogMemory: Virtual Memory: 4640.08 MB used,  4674.54 MB free, 134217728.00 MB total
+[2018.08.25-11.25.44:541][  0]LogInit: Using OS detected language (en-US).
+[2018.08.25-11.25.44:541][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.25-11.25.44:542][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.25-11.25.44:904][  0]LogStreaming: Display: Took  0.364s to InitEngineTextLocalization.
+[2018.08.25-11.25.44:904][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.25-11.25.44:942][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.25-11.25.44:942][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.25-11.25.45:142][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.25-11.25.45:142][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.25-11.25.46:133][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (Feature Level 11_0)
+[2018.08.25-11.25.46:133][  0]LogD3D11RHI:       6052/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.25-11.25.46:145][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.08.25-11.25.46:145][  0]LogD3D11RHI:       128/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.25-11.25.46:147][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.25-11.25.46:147][  0]LogD3D11RHI:       0/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.25-11.25.46:147][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.25-11.25.46:176][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.25-11.25.46:176][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.25-11.25.46:176][  0]LogWindows: EnumDisplayDevices:
+[2018.08.25-11.25.46:176][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.08.25-11.25.46:176][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.25-11.25.46:177][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.08.25-11.25.46:177][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2018.08.25-11.25.46:177][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2018.08.25-11.25.46:177][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2018.08.25-11.25.46:178][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060 with Max-Q Design' (P:0 D:0)
+[2018.08.25-11.25.46:178][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.08.25-11.25.46:178][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 with Max-Q Design
+[2018.08.25-11.25.46:178][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2018.08.25-11.25.46:178][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2018.08.25-11.25.46:178][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.08.25-11.25.46:223][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.25-11.25.46:260][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.25-11.25.46:264][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../Testgame_1/thirdpersondude/Intermediate/Shaders/WorkingDirectory/5308/).
+[2018.08.25-11.25.46:264][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Berserk/AppData/Local/Temp/UnrealShaderWorkingDir/233765B14268CDF5F239ABAEE5B9586F/'.
+[2018.08.25-11.25.46:533][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.25-11.25.46:545][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.25-11.25.46:557][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.25-11.25.46:569][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.25-11.25.46:581][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.25-11.25.46:593][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.25-11.25.46:605][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.25-11.25.46:616][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.25-11.25.46:621][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:692][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-11.25.46:693][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.25-11.25.46:752][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.25-11.25.46:752][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.25-11.25.46:774][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.25-11.25.46:774][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.25-11.25.46:786][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.25-11.25.46:798][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.25-11.25.46:809][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.25-11.25.46:821][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.25-11.25.46:829][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.25-11.25.46:829][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.25-11.25.46:873][  0]LogXGEController: Cleaning working directory: C:/Users/Berserk/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.25-11.25.46:873][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.25-11.25.46:873][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.25-11.25.46:873][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.25-11.25.47:540][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.25-11.25.47:602][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Berserk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.25-11.25.47:603][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Berserk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.25-11.25.47:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Testgame_1/thirdpersondude/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.25-11.25.47:603][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.25-11.25.47:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Testgame_1/thirdpersondude/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.25-11.25.47:603][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.25-11.25.47:616][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.25-11.25.47:629][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Berserk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.25-11.25.47:629][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.25-11.25.47:629][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.25-11.25.47:647][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.25-11.25.47:648][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.25-11.25.47:649][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.25-11.25.47:722][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.08.25-11.25.48:038][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.25-11.25.48:165][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.25-11.25.48:168][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.25-11.25.48:168][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.25-11.25.48:168][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.25-11.25.48:168][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.25-11.25.48:183][  0]LogNetVersion: thirdpersondude 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3471732440)
+[2018.08.25-11.25.48:651][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.080078 seconds
+[2018.08.25-11.25.48:657][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.25-11.25.48:657][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.08.25-11.25.48:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.25-11.25.49:507][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.25-11.25.49:520][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.25-11.25.49:658][  0]SourceControl: Source control is disabled
+[2018.08.25-11.25.50:146][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.25-11.25.50:198][  0]LogOcInput: OculusInput pre-init called
+[2018.08.25-11.25.50:258][  0]LogEngine: Initializing Engine...
+[2018.08.25-11.25.50:258][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.25-11.25.50:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.25-11.25.50:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.25-11.25.50:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.25-11.25.50:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.25-11.25.50:476][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.25-11.25.50:487][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.25-11.25.50:495][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.25.50:506][  0]LogInit: FAudioDevice initialized.
+[2018.08.25-11.25.50:507][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.25-11.25.50:563][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Berserk/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.25-11.25.50:581][  0]LogInit: Texture streaming: Enabled
+[2018.08.25-11.25.50:594][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.25-11.25.50:607][  0]LogInit: Transaction tracking system initialized
+[2018.08.25-11.25.50:620][  0]BlueprintLog: New page: Editor Load
+[2018.08.25-11.25.50:675][  0]LocalizationService: Localization service is disabled
+[2018.08.25-11.25.50:991][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.25-11.25.50:991][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.25-11.25.50:991][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.25-11.25.50:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.25-11.25.50:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.25-11.25.50:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.25-11.25.50:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.25-11.25.51:083][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Content/' took 0.01s
+[2018.08.25-11.25.51:090][  0]Cmd: MAP LOAD FILE="../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.25-11.25.51:090][  0]LightingResults: New page: Lighting Build
+[2018.08.25-11.25.51:092][  0]MapCheck: New page: Map Check
+[2018.08.25-11.25.51:092][  0]LightingResults: New page: Lighting Build
+[2018.08.25-11.25.51:586][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.25.51:602][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.25-11.25.51:629][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.25-11.25.51:684][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.707ms to complete.
+[2018.08.25-11.25.51:684][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.594
+[2018.08.25-11.25.51:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.25.51:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.25.51:815][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.25.51:825][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.25.51:839][  0]LogCollectionManager: Loaded 0 collections in 0.001288 seconds
+[2018.08.25-11.25.51:880][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Saved/Collections/' took 0.01s
+[2018.08.25-11.25.51:880][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Content/Developers/Berserk/Collections/' took 0.01s
+[2018.08.25-11.25.51:880][  0]LogFileCache: Scanning file cache for directory 'D:/Testgame_1/thirdpersondude/Content/Collections/' took 0.01s
+[2018.08.25-11.25.51:880][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.25-11.25.51:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2572 classes and 603 folders.
+[2018.08.25-11.25.51:899][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.25-11.25.51:946][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.25-11.25.51:951][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.25-11.25.51:969][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.25-11.25.51:972][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.25-11.25.51:980][  0]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.25-11.25.52:068][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.08.25-11.25.52:240][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.25-11.25.52:240][  0]LogLoad: (Engine Initialization) Total time: 9.16 seconds
+[2018.08.25-11.25.52:240][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.25-11.25.52:250][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.25-11.25.52:276][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.25-11.25.52:300][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.25-11.25.52:327][  1]LogAssetRegistry: Asset discovery search completed in 4.6270 seconds
+[2018.08.25-11.25.52:329][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.25-11.25.52:329][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2018.08.25-11.26.01:423][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.26.01:656][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.26.01:998][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.26.02:395][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.26.04:442][360]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.26.04:852][406]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.26.18:945][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.25-11.26.19:463][ 28]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2018.08.25-11.26.20:012][ 79]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (National_Anthem_of_USSR)
+[2018.08.25-11.26.31:010][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.26.38:596][925]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.26.38:610][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.26.38:610][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.26.38:623][925]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:26:38 PM)
+[2018.08.25-11.26.38:623][925]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.26.38:657][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033475s)
+[2018.08.25-11.26.38:658][925]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.26.38:659][925]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2018.08.25-11.26.38:659][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034802s)
+[2018.08.25-11.26.38:686][925]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.26.38:694][925]LogInit: FAudioDevice initialized.
+[2018.08.25-11.26.38:739][925]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.26.38:743][925]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.08.25-14.26.38
+[2018.08.25-11.26.38:744][925]LogWorld: Bringing up level for play took: 0.002979
+[2018.08.25-11.26.38:760][925]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.08.25-11.26.38:761][925]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.716
+[2018.08.25-11.26.38:761][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.26.40:961][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.26.40:961][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.26.40:998][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.26.40:999][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.26.41:021][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.26.41:067][171]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.08.25-11.26.43:950][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.25-11.26.44:340][501]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (National_Anthem_of_USSR)
+[2018.08.25-11.26.46:394][690]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.26.46:408][690]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.25-11.26.59:687][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.25-11.27.18:764][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.27.18:842][588]LogActorFactory: Actor Factory created Plane
+[2018.08.25-11.27.23:129][ 12]LogActorFactory: Actor Factory created Plane
+[2018.08.25-11.27.32:095][879]Cmd: DELETE
+[2018.08.25-11.27.32:095][879]Cmd: ACTOR DELETE
+[2018.08.25-11.27.32:102][879]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.08.25-11.27.32:125][879]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.08.25-11.27.43:667][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.27.43:752][191]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.27.43:768][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.27.43:768][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.27.43:768][191]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:27:43 PM)
+[2018.08.25-11.27.43:768][191]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.27.43:793][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025017s)
+[2018.08.25-11.27.43:794][191]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.27.43:795][191]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2018.08.25-11.27.43:795][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026204s)
+[2018.08.25-11.27.43:821][191]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.27.43:831][191]LogInit: FAudioDevice initialized.
+[2018.08.25-11.27.43:860][191]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.27.43:863][191]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.08.25-14.27.43
+[2018.08.25-11.27.43:864][191]LogWorld: Bringing up level for play took: 0.002760
+[2018.08.25-11.27.43:877][191]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.168
+[2018.08.25-11.27.43:877][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.27.45:389][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.27.45:389][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.27.45:432][355]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.27.45:432][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.27.45:454][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.27.45:492][356]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.08.25-11.28.08:846][752]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (National_Anthem_of_USSR)
+[2018.08.25-11.28.09:860][810]Cmd: DELETE
+[2018.08.25-11.28.09:860][810]Cmd: ACTOR DELETE
+[2018.08.25-11.28.09:866][810]LogEditorActor: Deleted Actor: AmbientSound
+[2018.08.25-11.28.09:887][810]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.08.25-11.28.11:197][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.28.11:280][894]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.28.11:295][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.11:295][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.28.11:295][894]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:28:11 PM)
+[2018.08.25-11.28.11:295][894]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.28.11:321][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026096s)
+[2018.08.25-11.28.11:322][894]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.28.11:322][894]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2018.08.25-11.28.11:322][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027236s)
+[2018.08.25-11.28.11:350][894]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.28.11:358][894]LogInit: FAudioDevice initialized.
+[2018.08.25-11.28.11:393][894]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.28.11:397][894]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.25-14.28.11
+[2018.08.25-11.28.11:397][894]LogWorld: Bringing up level for play took: 0.002890
+[2018.08.25-11.28.11:411][894]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.634
+[2018.08.25-11.28.11:411][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.16:586][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.16:587][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.28.16:621][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.28.16:621][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.16:644][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.28.16:647][203]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.National_Anthem_of_USSR_2.AudioComponent0) Not currently registered. Aborting.
+[2018.08.25-11.28.16:698][206]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.08.25-11.28.17:422][249]Cmd: SELECT NONE
+[2018.08.25-11.28.17:966][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.28.18:033][285]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.28.18:047][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.18:047][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.28.18:047][285]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:28:18 PM)
+[2018.08.25-11.28.18:047][285]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.28.18:072][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024554s)
+[2018.08.25-11.28.18:073][285]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.28.18:073][285]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2018.08.25-11.28.18:073][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026050s)
+[2018.08.25-11.28.18:099][285]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.28.18:106][285]LogInit: FAudioDevice initialized.
+[2018.08.25-11.28.18:140][285]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.28.18:144][285]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.25-14.28.18
+[2018.08.25-11.28.18:145][285]LogWorld: Bringing up level for play took: 0.003080
+[2018.08.25-11.28.18:158][285]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.113
+[2018.08.25-11.28.18:158][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.34:716][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.34:716][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.28.34:754][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.28.34:754][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.34:778][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.28.34:782][277]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.National_Anthem_of_USSR_2.AudioComponent0) Not currently registered. Aborting.
+[2018.08.25-11.28.34:828][279]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.08.25-11.28.39:687][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.28.39:770][574]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.28.39:786][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.39:786][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.28.39:786][574]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:28:39 PM)
+[2018.08.25-11.28.39:786][574]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.28.39:810][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023866s)
+[2018.08.25-11.28.39:811][574]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.28.39:811][574]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.08.25-11.28.39:811][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024784s)
+[2018.08.25-11.28.39:839][574]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.28.39:847][574]LogInit: FAudioDevice initialized.
+[2018.08.25-11.28.39:878][574]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.28.39:882][574]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.25-14.28.39
+[2018.08.25-11.28.39:882][574]LogWorld: Bringing up level for play took: 0.002738
+[2018.08.25-11.28.39:895][574]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.15
+[2018.08.25-11.28.39:895][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.50:505][209]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.50:505][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.28.50:540][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.28.50:540][209]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.50:564][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.28.50:569][209]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.National_Anthem_of_USSR_2.AudioComponent0) Not currently registered. Aborting.
+[2018.08.25-11.28.50:613][211]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.08.25-11.28.51:914][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.28.52:013][295]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.28.52:029][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.28.52:029][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.28.52:029][295]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:28:52 PM)
+[2018.08.25-11.28.52:029][295]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.28.52:054][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023999s)
+[2018.08.25-11.28.52:054][295]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.28.52:055][295]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2018.08.25-11.28.52:055][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025234s)
+[2018.08.25-11.28.52:081][295]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.28.52:089][295]LogInit: FAudioDevice initialized.
+[2018.08.25-11.28.52:121][295]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.28.52:125][295]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.25-14.28.52
+[2018.08.25-11.28.52:126][295]LogWorld: Bringing up level for play took: 0.002723
+[2018.08.25-11.28.52:139][295]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.095
+[2018.08.25-11.28.52:139][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.29.07:305][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.29.07:305][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.29.07:343][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.29.07:343][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.29.07:367][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.29.07:371][203]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.National_Anthem_of_USSR_2.AudioComponent0) Not currently registered. Aborting.
+[2018.08.25-11.29.07:416][205]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.08.25-11.29.12:341][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.29.12:574][503]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.08.25-11.29.47:517][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.29.55:254][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.25-11.29.56:233][ 80]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.29.57:264][141]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.29.57:303][143]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.00:456][331]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.00:538][335]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.00:773][349]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.00:934][358]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.01:077][366]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.01:141][369]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.01:372][383]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.02:374][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.30.13:853][108]Cmd: SELECT NONE
+[2018.08.25-11.30.24:116][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.30.25:513][801]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2018.08.25-11.30.27:566][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.08.25-11.30.27:570][921]LogTexture: Display: Building textures: Texture2D_4 (G8, 128X128)
+[2018.08.25-11.30.31:794][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.30.32:244][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.08.25-11.30.32:247][199]LogTexture: Display: Building textures: Texture2D_5 (G8, 128X128)
+[2018.08.25-11.30.37:971][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.30.59:222][808]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.31.03:533][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.31.41:147][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.31.50:072][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.32.10:675][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.32.10:803][ 64]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2018.08.25-11.32.16:110][368]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.32.19:625][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.32.26:043][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.32.26:126][959]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.32.26:141][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.32.26:141][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.32.26:141][959]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:32:26 PM)
+[2018.08.25-11.32.26:141][959]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.32.26:278][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136030s)
+[2018.08.25-11.32.26:280][959]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.32.26:280][959]LogPlayLevel: PIE: World Init took: (0.002123s)
+[2018.08.25-11.32.26:280][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.138478s)
+[2018.08.25-11.32.26:351][959]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.32.26:359][959]LogInit: FAudioDevice initialized.
+[2018.08.25-11.32.26:394][959]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.32.26:402][959]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.25-14.32.26
+[2018.08.25-11.32.26:402][959]LogWorld: Bringing up level for play took: 0.006475
+[2018.08.25-11.32.26:415][959]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.37
+[2018.08.25-11.32.26:415][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.32.27:007][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.32.27:007][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.32.27:042][993]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.32.27:042][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.32.27:065][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.32.27:069][993]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.National_Anthem_of_USSR_2.AudioComponent0) Not currently registered. Aborting.
+[2018.08.25-11.32.27:116][995]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.08.25-11.32.36:324][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.32.46:797][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.32.50:256][367]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.08.25-11.32.51:550][441]Cmd: DELETE
+[2018.08.25-11.32.51:550][441]Cmd: ACTOR DELETE
+[2018.08.25-11.32.51:561][441]LogEditorActor: Deleted Actor: Brush
+[2018.08.25-11.32.51:611][441]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2018.08.25-11.33.04:820][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.33.11:156][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.33.20:211][478]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.08.25-11.33.23:086][638]Cmd: DELETE
+[2018.08.25-11.33.23:086][638]Cmd: ACTOR DELETE
+[2018.08.25-11.33.23:095][638]LogEditorActor: Deleted Actor: Brush
+[2018.08.25-11.33.23:144][638]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2018.08.25-11.33.27:220][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.33.29:111][992]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.08.25-11.34.03:547][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.34.05:526][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.34.08:893][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.34.24:723][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.34.54:028][746]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.35.05:570][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.35.07:765][526]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.35.16:759][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.35.25:143][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.35.31:812][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.35.41:156][461]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.35.55:691][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.36.05:050][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.36.09:006][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.36.09:150][ 92]LogActorFactory: Actor Factory created Cylinder
+[2018.08.25-11.36.09:168][ 92]LogActorFactory: Actor Factory created Cylinder
+[2018.08.25-11.36.14:945][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.36.27:702][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.37.16:360][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.37.38:125][882]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Berserk/Desktop/1024px-Nazi_swastika_clean.svg.png)
+[2018.08.25-11.37.38:238][882]LogTexture: Display: Building textures: 1024px-Nazi_swastika_clean_svg (AutoDXT, 1024X1024)
+[2018.08.25-11.37.43:079][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.37.43:739][197]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat, compiling. 
+[2018.08.25-11.37.44:018][197]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.37.44:018][197]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.37.44:018][197]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.37.44:085][198]LogMaterial: Warning: Material /Game/Memefolder/1024px-Nazi_swastika_clean_svg_Mat.1024px-Nazi_swastika_clean_svg_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.08.25-11.37.44:093][198]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat, compiling. 
+[2018.08.25-11.37.44:130][198]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.37.46:307][322]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.37.48:007][418]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.37.48:113][418]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.37.48:305][418]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2018.08.25-11.37.48:796][418]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.37.48:806][418]LogSavePackage: Moving '../../../../../Testgame_1/thirdpersondude/Saved/ThirdPersonExampleMapFBA5FA72457C8F333AF2B2ADA3813452.tmp' to '../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.08.25-11.37.49:091][418]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.37.49:170][418]LogSavePackage: Moving '../../../../../Testgame_1/thirdpersondude/Saved/ThirdPersonExampleMap_BuiltData0C643CE54E3C71C329A86482AB2ADBFA.tmp' to '../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.08.25-11.37.53:570][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.37.53:639][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.37.53:954][632]LogSavePackage: Moving '../../../../../Testgame_1/thirdpersondude/Saved/ThirdPersonExampleMap3B85206444C792759E907D9B7181A106.tmp' to '../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.08.25-11.37.54:168][632]LogSavePackage: Moving '../../../../../Testgame_1/thirdpersondude/Saved/ThirdPersonExampleMap_BuiltDataEFFD07984916BCE4CA0037B21538DCE1.tmp' to '../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.08.25-11.37.58:692][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.38.26:201][432]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.38.29:679][432]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat, compiling. 
+[2018.08.25-11.38.29:694][432]LogMaterial: Warning: /Game/Memefolder/1024px-Nazi_swastika_clean_svg_Mat.1024px-Nazi_swastika_clean_svg_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.08.25-11.38.29:694][432]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.08.25-11.38.34:557][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.38.45:151][799]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Berserk/Desktop/1024px-Nazi_swastika_clean.svg.png)
+[2018.08.25-11.38.45:161][799]LogTexture: Display: Building textures: 1024px-Nazi_swastika_clean_svg (AutoDXT, 1024X1024)
+[2018.08.25-11.39.01:235][701]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.39.16:767][848]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Berserk/Desktop/Nazi_swastika_clean_reduce.png)
+[2018.08.25-11.39.16:860][848]LogTexture: Display: Building textures: Nazi_swastika_clean_reduce (BGRA8, 550X549)
+[2018.08.25-11.39.23:263][225]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.39.23:278][225]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.39.23:278][225]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.39.23:278][225]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.39.23:285][225]LogMaterial: Warning: Material /Game/Memefolder/Nazi_swastika_clean_reduce_Mat.Nazi_swastika_clean_reduce_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.08.25-11.39.23:288][225]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.39.23:318][226]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.39.24:649][297]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.39.24:973][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.39.27:044][366]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.39.27:211][366]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.39.27:402][366]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.39.33:312][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.39.34:455][754]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.39.34:473][754]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.39.34:473][754]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.39.34:473][754]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.39.34:477][754]LogMaterial: Warning: Material /Game/Memefolder/Nazi_swastika_clean_reduce_Mat.Nazi_swastika_clean_reduce_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.08.25-11.39.34:479][754]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.39.34:501][754]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.39.35:226][790]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.39.36:948][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.39.38:152][935]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.39.38:261][939]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.39.39:359][945]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.39.48:121][430]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.39.48:151][431]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.39.48:152][431]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.39.48:152][431]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.39.51:937][580]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.39.58:368][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2018.08.25-11.39.58:960][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2018.08.25-11.40.00:315][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.40.01:006][102]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.40.01:026][102]LogMaterial: Warning: Material /Game/Memefolder/Nazi_swastika_clean_reduce_Mat.Nazi_swastika_clean_reduce_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.08.25-11.40.01:032][102]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.40.01:032][102]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.40.01:032][102]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.40.01:032][102]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.40.01:073][103]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.40.01:727][135]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.40.02:515][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.40.03:426][216]LogAssetEditorManager: Opening Asset editor for Material /Game/Memefolder/Nazi_swastika_clean_reduce_Mat.Nazi_swastika_clean_reduce_Mat
+[2018.08.25-11.40.03:546][216]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.40.04:500][216]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.40.04:597][216]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.40.04:602][216]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.40.04:667][216]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.08.25-11.40.04:723][216]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.08.25-11.40.04:723][216]LogSlate: Took 0.022492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.25-11.40.05:074][217]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.40.05:417][228]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.25-11.40.05:887][245]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.08.25-11.40.06:276][259]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.08.25-11.40.06:596][272]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.08.25-11.40.06:624][273]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.08.25-11.40.06:923][286]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.08.25-11.40.06:969][288]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.08.25-11.40.07:199][299]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.08.25-11.40.07:239][301]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.40.07:283][303]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.40.07:757][325]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.40.07:937][334]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.25-11.40.08:023][338]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.25-11.40.08:457][358]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.25-11.40.08:480][359]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.25-11.40.08:744][372]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.08.25-11.40.09:316][392]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.08.25-11.40.09:344][393]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.25-11.40.09:393][395]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.40.09:893][414]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.40.10:052][420]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.25-11.40.10:216][426]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.25-11.40.10:271][428]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.08.25-11.40.10:695][444]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.08.25-11.40.10:724][445]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.25-11.40.10:964][455]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.08.25-11.40.11:042][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.40.11:116][461]LogSlate: Window 'Nazi_swastika_clean_reduce_Mat*' being destroyed
+[2018.08.25-11.40.11:131][461]LogSlate: Window 'Nazi_swastika_clean_reduce_Mat*' being destroyed
+[2018.08.25-11.40.11:179][461]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.08.25-11.40.11:194][461]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.40.15:049][639]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.40.16:574][665]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.40.54:630][ 92]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Berserk/Desktop/1024px-Nazi_swastika_clean.svg.png)
+[2018.08.25-11.40.54:641][ 92]LogTexture: Display: Building textures: 1024px-Nazi_swastika_clean_svg (AutoDXT, 1024X1024)
+[2018.08.25-11.40.59:638][378]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat1, compiling. 
+[2018.08.25-11.40.59:666][379]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.40.59:666][379]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.40.59:666][379]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.41.00:953][449]LogAssetEditorManager: Opening Asset editor for Material /Game/Memefolder/1024px-Nazi_swastika_clean_svg_Mat1.1024px-Nazi_swastika_clean_svg_Mat1
+[2018.08.25-11.41.00:957][449]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat1, compiling. 
+[2018.08.25-11.41.00:976][449]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.41.00:976][449]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.41.01:061][449]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat1, compiling. 
+[2018.08.25-11.41.01:082][449]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat1, compiling. 
+[2018.08.25-11.41.01:126][449]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.08.25-11.41.01:299][450]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.08.25-11.41.01:765][466]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.41.01:862][470]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.41.02:205][483]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.41.02:347][489]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.25-11.41.02:589][498]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.25-11.41.02:690][502]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.25-11.41.02:935][511]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.25-11.41.03:022][515]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.08.25-11.41.03:212][522]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.08.25-11.41.03:347][527]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.25-11.41.03:453][531]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.41.03:929][549]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.41.04:011][552]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.25-11.41.04:192][559]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.25-11.41.04:546][572]LogSlate: Window '1024px-Nazi_swastika_clean_svg_Mat1*' being destroyed
+[2018.08.25-11.41.04:560][572]LogSlate: Window '1024px-Nazi_swastika_clean_svg_Mat1*' being destroyed
+[2018.08.25-11.41.04:638][572]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.25-11.41.04:698][574]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.08.25-11.41.04:800][580]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.08.25-11.41.05:253][605]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.08.25-11.41.05:557][620]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.41.05:647][624]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.41.13:215][966]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.41.14:885][ 59]LogMaterial: Warning: Material /Game/Memefolder/1024px-Nazi_swastika_clean_svg_Mat1.1024px-Nazi_swastika_clean_svg_Mat1 needed to have new flag set bUsedWithStaticLighting !
+[2018.08.25-11.41.14:890][ 59]LogMaterial: Display: Missing cached shader map for material 1024px-Nazi_swastika_clean_svg_Mat1, compiling. 
+[2018.08.25-11.41.14:917][ 60]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.41.14:917][ 60]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.41.14:917][ 60]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.41.14:917][ 60]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.41.16:307][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.25-11.41.20:068][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.41.23:612][508]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.41.25:995][572]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.41.28:095][619]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Berserk/Desktop/Nazi_swastika_clean_reduce.png)
+[2018.08.25-11.41.28:105][619]LogTexture: Display: Building textures: Nazi_swastika_clean_reduce (BGRA8, 550X549)
+[2018.08.25-11.41.31:869][835]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.41.31:894][836]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.41.31:894][836]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.41.31:894][836]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.41.32:974][895]LogAssetEditorManager: Opening Asset editor for Material /Game/Memefolder/Nazi_swastika_clean_reduce_Mat.Nazi_swastika_clean_reduce_Mat
+[2018.08.25-11.41.32:980][895]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.41.33:003][895]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.41.33:003][895]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.41.33:094][895]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.41.33:114][895]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.41.33:170][895]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.08.25-11.41.33:338][896]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.08.25-11.41.33:338][896]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.41.33:797][912]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.41.33:797][912]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.41.34:159][926]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.25-11.41.34:228][929]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.25-11.41.34:503][940]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.25-11.41.34:553][942]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.25-11.41.34:815][952]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.08.25-11.41.34:844][953]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.08.25-11.41.35:018][960]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.25-11.41.35:140][965]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.41.35:610][983]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.41.35:641][984]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.25-11.41.35:902][995]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.25-11.41.36:380][ 13]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.08.25-11.41.36:460][ 16]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.08.25-11.41.36:509][ 18]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.25-11.41.36:979][ 37]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.08.25-11.41.37:280][ 49]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.08.25-11.41.37:428][ 55]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.08.25-11.41.37:676][ 65]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.41.37:906][ 74]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.41.38:180][ 81]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.08.25-11.41.38:180][ 81]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.08.25-11.41.38:180][ 81]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.08.25-11.41.38:180][ 81]MaterialEditorStats: Texture samplers: 4/16
+[2018.08.25-11.41.38:180][ 81]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.08.25-11.41.38:180][ 81]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.08.25-11.41.38:910][125]LogSlate: Window 'Nazi_swastika_clean_reduce_Mat*' being destroyed
+[2018.08.25-11.41.38:920][125]LogSlate: Window 'Nazi_swastika_clean_reduce_Mat*' being destroyed
+[2018.08.25-11.41.40:208][197]LogMaterial: Warning: Material /Game/Memefolder/Nazi_swastika_clean_reduce_Mat.Nazi_swastika_clean_reduce_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.08.25-11.41.40:211][197]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.41.40:235][198]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.41.40:235][198]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.41.40:235][198]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.41.40:235][198]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.41.47:973][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.41.57:497][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.08.25-11.41.58:674][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.42.03:270][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.42.04:480][605]LogAssetEditorManager: Opening Asset editor for Material /Game/Memefolder/Nazi_swastika_clean_reduce_Mat.Nazi_swastika_clean_reduce_Mat
+[2018.08.25-11.42.04:483][605]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.08.25-11.42.04:566][605]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.08.25-11.42.04:585][605]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.08.25-11.42.04:619][605]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.25-11.42.04:619][605]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.08.25-11.42.04:619][605]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.08.25-11.42.04:619][605]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.08.25-11.42.04:633][605]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.08.25-11.42.04:911][611]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.08.25-11.42.04:953][613]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.08.25-11.42.05:248][625]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.08.25-11.42.05:304][627]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.08.25-11.42.05:352][629]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.08.25-11.42.05:452][633]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.08.25-11.42.05:558][637]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.42.05:586][638]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.42.05:702][643]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.42.06:202][661]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.25-11.42.06:497][672]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.25-11.42.06:552][674]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.25-11.42.06:774][682]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.25-11.42.06:994][690]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.08.25-11.42.07:156][696]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.08.25-11.42.07:343][703]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.25-11.42.07:469][708]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.42.07:567][712]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.42.07:918][725]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.25-11.42.07:976][727]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.25-11.42.08:229][737]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.08.25-11.42.08:389][743]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.08.25-11.42.08:437][745]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.25-11.42.08:775][758]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.08.25-11.42.08:932][764]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.08.25-11.42.09:115][771]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.08.25-11.42.09:329][779]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.42.09:516][786]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.42.09:705][794]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.08.25-11.42.09:705][794]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2018.08.25-11.42.09:705][794]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.08.25-11.42.09:705][794]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.08.25-11.42.09:705][794]MaterialEditorStats: Texture samplers: 4/16
+[2018.08.25-11.42.09:705][794]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.08.25-11.42.09:705][794]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.08.25-11.42.18:690][322]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.08.25-11.42.18:711][322]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.25-11.42.18:711][322]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.08.25-11.42.18:711][322]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.08.25-11.42.18:711][322]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.08.25-11.42.18:714][322]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.08.25-11.42.18:743][322]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.08.25-11.42.19:064][334]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.08.25-11.42.19:137][337]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.42.19:161][338]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.25-11.42.19:181][339]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.08.25-11.42.19:594][355]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.08.25-11.42.19:623][356]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.08.25-11.42.19:623][356]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.08.25-11.42.19:689][359]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.08.25-11.42.19:958][370]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.08.25-11.42.19:958][370]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.08.25-11.42.20:003][372]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.42.20:024][373]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.42.20:216][381]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.42.20:295][384]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.25-11.42.20:342][386]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.25-11.42.20:754][400]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.25-11.42.20:785][401]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.25-11.42.21:060][412]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.08.25-11.42.21:087][413]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.08.25-11.42.21:259][420]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.25-11.42.21:536][430]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.42.21:745][437]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.42.21:842][442]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.25-11.42.21:864][443]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.25-11.42.22:259][459]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.08.25-11.42.22:280][460]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.08.25-11.42.22:514][470]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.25-11.42.22:602][473]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.08.25-11.42.22:713][478]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.08.25-11.42.22:991][489]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.08.25-11.42.23:185][497]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.42.23:314][502]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.42.24:823][584]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.08.25-11.42.24:823][584]MaterialEditorStats: Base pass shader with Surface Lightmap: 119 instructions
+[2018.08.25-11.42.24:823][584]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.08.25-11.42.24:823][584]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.08.25-11.42.24:823][584]MaterialEditorStats: Texture samplers: 4/16
+[2018.08.25-11.42.24:823][584]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.08.25-11.42.24:823][584]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.08.25-11.42.29:049][712]LogSlate: Window 'Message' being destroyed
+[2018.08.25-11.42.29:554][712]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.08.25-11.42.29:633][712]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.08.25-11.42.29:633][712]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.08.25-11.42.29:633][712]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.08.25-11.42.29:633][712]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.08.25-11.42.29:657][712]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.42.29:688][712]LogMaterial: Display: Missing cached shader map for material Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.42.29:761][712]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Nazi_swastika_clean_reduce_Mat, compiling. 
+[2018.08.25-11.42.31:922][712]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.42.31:923][712]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.42.31:928][712]TextureStreamingBuild: Display: Compiling optional shaders took 2.189 seconds.
+[2018.08.25-11.42.32:035][712]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.42.32:066][712]LogSlate: Window 'Nazi_swastika_clean_reduce_Mat*' being destroyed
+[2018.08.25-11.42.32:068][712]LogSlate: Window 'Nazi_swastika_clean_reduce_Mat*' being destroyed
+[2018.08.25-11.42.41:833][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.42.45:085][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.42.56:992][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.42.57:086][172]LogActorFactory: Actor Factory created Sphere
+[2018.08.25-11.42.57:329][186]LogActorFactory: Actor Factory created Sphere
+[2018.08.25-11.43.10:156][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.43.16:651][179]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.43.19:697][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2018.08.25-11.43.22:174][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.43.47:544][999]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.08.25-11.43.52:543][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.43.55:067][378]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.43.57:084][425]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.44.36:124][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.25-11.44.36:525][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.08.25-11.45.00:105][916]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-11.45.02:316][965]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Berserk/Desktop/postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko.png)
+[2018.08.25-11.45.02:323][965]LogTexture: Display: Building textures: postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko (AutoDXT, 300X300)
+[2018.08.25-11.45.07:287][249]LogMaterial: Display: Missing cached shader map for material postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat, compiling. 
+[2018.08.25-11.45.07:317][249]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.45.07:317][249]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.45.07:317][249]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.45.08:033][288]LogAssetEditorManager: Opening Asset editor for Material /Game/Memefolder/postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat.postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat
+[2018.08.25-11.45.08:038][288]LogMaterial: Display: Missing cached shader map for material postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat, compiling. 
+[2018.08.25-11.45.08:057][288]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.45.08:151][288]LogMaterial: Display: Missing cached shader map for material postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat, compiling. 
+[2018.08.25-11.45.08:175][288]LogMaterial: Display: Missing cached shader map for material postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat, compiling. 
+[2018.08.25-11.45.08:230][288]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.45.08:230][288]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.08.25-11.45.08:904][306]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.25-11.45.09:014][310]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.45.09:611][334]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.08.25-11.45.09:634][335]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.25-11.45.09:922][349]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.08.25-11.45.09:944][350]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.08.25-11.45.10:307][364]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.25-11.45.10:307][364]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.08.25-11.45.10:555][374]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.08.25-11.45.10:624][377]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.08.25-11.45.11:374][404]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.25-11.45.11:427][406]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.45.11:580][412]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.08.25-11.45.11:854][423]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.25-11.45.12:215][436]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.08.25-11.45.12:348][441]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.08.25-11.45.12:455][445]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.25-11.45.12:924][462]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.08.25-11.45.13:164][472]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.08.25-11.45.13:317][478]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.08.25-11.45.13:673][491]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.25-11.45.13:788][496]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.45.13:968][503]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.08.25-11.45.13:968][503]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.08.25-11.45.13:968][503]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.08.25-11.45.13:968][503]MaterialEditorStats: Texture samplers: 4/16
+[2018.08.25-11.45.13:968][503]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.08.25-11.45.13:968][503]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.08.25-11.45.18:345][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.45.23:508][ 59]LogSlate: Window 'postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat*' being destroyed
+[2018.08.25-11.45.23:513][ 59]LogSlate: Window 'postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat*' being destroyed
+[2018.08.25-11.45.25:991][202]LogMaterial: Warning: Material /Game/Memefolder/postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat.postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.08.25-11.45.25:996][202]LogMaterial: Display: Missing cached shader map for material postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat, compiling. 
+[2018.08.25-11.45.26:018][202]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.25-11.45.26:018][202]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.25-11.45.26:018][202]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.25-11.45.26:018][202]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.25-11.45.32:686][591]Cmd: SELECT NONE
+[2018.08.25-11.45.33:873][662]Cmd: SELECT NONE
+[2018.08.25-11.45.35:424][755]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.45.37:461][821]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.45.37:563][821]LogMaterial: Display: Missing cached shader map for material postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat, compiling. 
+[2018.08.25-11.45.37:564][821]LogMaterial: Warning: /Game/Memefolder/postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat.postanovlenie-Sovnarkoma-i-CK-VKP-b--1428-326-O-viselenii-ko_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.08.25-11.45.37:564][821]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.08.25-11.45.39:548][858]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.25-11.45.52:087][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.45.53:744][426]SourceControl: fatal: D:/Ashwitch/UE_4.20/Engine/Content: 'D:/Ashwitch/UE_4.20/Engine/Content' is outside repository
+[2018.08.25-11.45.58:647][426]LogSlate: Window 'Save Content' being destroyed
+[2018.08.25-11.45.59:954][479]LogSavePackage: Moving '../../../../../Testgame_1/thirdpersondude/Saved/ThirdPersonExampleMapAB2DC4254246BA1C2DBCACAF6F10315C.tmp' to '../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.08.25-11.46.00:178][479]LogSavePackage: Moving '../../../../../Testgame_1/thirdpersondude/Saved/ThirdPersonExampleMap_BuiltData8CA1A5404A58D4AC17DB5B97A95B3856.tmp' to '../../../../../Testgame_1/thirdpersondude/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.08.25-11.46.01:701][570]SourceControl: fatal: D:/Ashwitch/UE_4.20/Engine/Content: 'D:/Ashwitch/UE_4.20/Engine/Content' is outside repository
+[2018.08.25-11.46.08:498][570]LogSlate: Window 'Submit Files' being destroyed
+[2018.08.25-11.46.10:091][570]LogSourceControl: commit successful: [master 5b91b5b] kalns
+[2018.08.25-11.46.10:149][570]SourceControl: [master 5b91b5b] kalns
+[2018.08.25-11.46.10:149][570]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.08.25-11.46.10:152][570]SourceControl: Commited [master 5b91b5b] kalns.
+[2018.08.25-11.47.00:851][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.47.00:934][553]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.47.00:949][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.00:949][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.47.00:949][553]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:47:00 PM)
+[2018.08.25-11.47.00:949][553]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.47.00:979][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029471s)
+[2018.08.25-11.47.00:980][553]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.47.00:980][553]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2018.08.25-11.47.00:980][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030764s)
+[2018.08.25-11.47.01:009][553]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.47.01:024][553]LogInit: FAudioDevice initialized.
+[2018.08.25-11.47.01:059][553]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.47.01:064][553]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.25-14.47.01
+[2018.08.25-11.47.01:064][553]LogWorld: Bringing up level for play took: 0.004272
+[2018.08.25-11.47.01:077][553]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.031
+[2018.08.25-11.47.01:077][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.09:154][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.09:155][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.47.09:190][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.47.09:190][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.09:213][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.47.09:271][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.08.25-11.47.11:059][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-11.47.11:158][148]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-11.47.11:172][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.11:173][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-11.47.11:173][148]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 25, 2018, 5:47:11 PM)
+[2018.08.25-11.47.11:173][148]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.08.25-11.47.11:202][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029432s)
+[2018.08.25-11.47.11:203][148]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.25-11.47.11:204][148]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2018.08.25-11.47.11:204][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030592s)
+[2018.08.25-11.47.11:231][148]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-11.47.11:239][148]LogInit: FAudioDevice initialized.
+[2018.08.25-11.47.11:270][148]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.08.25-11.47.11:276][148]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.08.25-14.47.11
+[2018.08.25-11.47.11:276][148]LogWorld: Bringing up level for play took: 0.004791
+[2018.08.25-11.47.11:289][148]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.755
+[2018.08.25-11.47.11:290][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.13:265][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.13:265][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.47.13:304][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.25-11.47.13:304][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.08.25-11.47.13:328][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-11.47.13:375][260]LogPlayLevel: Display: Destroying online subsystem :Context_16
